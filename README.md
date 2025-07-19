@@ -1,4 +1,4 @@
-# Responsive Landing Page 🌐
+## Responsive Landing Page 🌐
 
 This is a simple and clean **responsive landing page** built using HTML and CSS. It adjusts smoothly across desktop, tablet, and mobile screen sizes.
 
