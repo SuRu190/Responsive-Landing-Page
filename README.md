@@ -3,7 +3,7 @@
 This is a simple and clean **responsive landing page** built using HTML and CSS. It adjusts smoothly across desktop, tablet, and mobile screen sizes.
 
 ### 🔗 Live Demo
-[Click here to view](https://suru190.github.io/responsive-landing-page/)
+[Click here to view](https://suru190.github.io/Responsive-Landing-Page/)
 
 
 ---
