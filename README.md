@@ -13,7 +13,7 @@ This is a simple and clean **responsive landing page** built using HTML and CSS.
 ### 💻 Desktop View
 ![Landing Page Preview](./desktop-view.png)
 
-### 📱 Mobile View *(optional)*
+### 📱 Mobile View
 ![Mobile View](./mobile-view.jpeg)
 
 ---
