@@ -19,8 +19,6 @@ It features a **hamburger menu for mobile devices** and **scroll animations** fo
 ### 📱 Mobile View
 ![Mobile View](./mobile-view.png)
 
-*(Add a screenshot named `desktop-view.png` in your repo)*
-
 ---
 
 ### ✨ Features  
