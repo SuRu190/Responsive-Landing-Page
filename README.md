@@ -7,8 +7,7 @@ It features a **hamburger menu for mobile devices** and **scroll animations** fo
 ---
 
 ### 🔗 Live Demo  
-[Live Demo Link](https://suru190.github.io/Responsive-Landing-Page/)  
-*(Update with your actual GitHub Pages link)*
+[Live Demo Link](https://suru190.github.io/Responsive-Landing-Page/) 
 
 ---
 
