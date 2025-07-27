@@ -10,6 +10,7 @@ body {
     color: #333;
 }
 
+/* HEADER */
 header {
     display: flex;
     justify-content: space-between;
@@ -17,6 +18,9 @@ header {
     background-color: #222;
     color: white;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .logo {
@@ -36,8 +40,21 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    transition: color 0.3s ease;
 }
 
+nav ul li a:hover {
+    color: crimson;
+}
+
+/* Hamburger */
+.hamburger {
+    display: none;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+/* HERO */
 .hero {
     text-align: center;
     padding: 60px 20px;
@@ -61,8 +78,15 @@ nav ul li a {
     border: none;
     border-radius: 30px;
     cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
 }
 
+.hero button:hover {
+    background: darkred;
+    transform: scale(1.05);
+}
+
+/* FEATURES */
 .features {
     padding: 40px 20px;
     text-align: center;
@@ -87,8 +111,14 @@ nav ul li a {
     border-radius: 50px;
     width: 30%;
     min-width: 200px;
+    transition: transform 0.3s ease;
 }
 
+.feature:hover {
+    transform: translateY(-5px);
+}
+
+/* FOOTER */
 footer {
     text-align: center;
     padding: 20px;
@@ -96,26 +126,94 @@ footer {
     color: white;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-    }
+/* Animations */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1s forwards;
+}
 
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.slide-up {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: slideUp 0.8s ease forwards;
+}
+
+@keyframes slideUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
     nav ul {
+        position: absolute;
+        top: 70px;
+        right: 0;
+        background: #222;
         flex-direction: column;
-        align-items: center;
+        width: 200px;
+        display: none;
+        padding: 20px;
     }
 
     nav ul li {
-        margin: 10px 0;
+        margin: 15px 0;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+
+    .hero h1 {
+        font-size: 30px;
     }
 
     .feature-list {
         flex-direction: column;
     }
+}
+
+/* ✅ Responsive Design */
+@media (max-width: 300px) {
+    header {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
 
     .hero h1 {
-        font-size: 30px;
+        font-size: 22px;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+
+    .hero button {
+        font-size: 13px;
+        padding: 8px 20px;
+    }
+
+    .feature {
+        width: 90%;
+        font-size: 13px;
+        padding: 15px;
     }
 }
