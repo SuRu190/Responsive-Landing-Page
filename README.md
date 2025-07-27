@@ -13,7 +13,7 @@ It features a **hamburger menu for mobile devices** and **scroll animations** fo
 
 ### 📸 Screenshots  
 
-**Desktop View:**  
+### Desktop View
 ![Desktop View](desktop-view.png)  
 
 ### 📱 Mobile View
