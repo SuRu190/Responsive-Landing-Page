@@ -1,57 +1,44 @@
-## 📌 Responsive Landing Page
-
-### 📝 Description  
-A simple yet modern **Responsive Landing Page** built using **HTML, CSS, and JavaScript**.  
-It features a **hamburger menu for mobile devices** and **scroll animations** for a smooth user experience.
 
 ---
 
-### 🔗 Live Demo  
-[Live Demo Link](https://suru190.github.io/Responsive-Landing-Page/) 
+## **Responsive Landing Page – README.md**
+```markdown
+# 📌 Responsive Landing Page
+
+A modern, responsive landing page with a **hamburger menu** for mobile and **smooth scroll animations** for enhanced user experience.
 
 ---
 
-## 📸 Screenshots  
-
-### 💻 Desktop View
-![Desktop View](desktop-view.png)  
-
-### 📱 Mobile View
-![Mobile View](./mobile-view.png)
+![Preview Screenshot](desktop-view.png)
 
 ---
 
-### ✨ Features  
-✔ Fully Responsive Design (works on all devices)  
-✔ Hamburger Menu for small screens  
-✔ Smooth scroll animations for feature cards  
-✔ Clean and minimal layout  
-✔ Lightweight and fast  
+## 🔗 Live Demo
+👉 [Click here to View](https://suru190.github.io/Responsive-Landing-Page/)
 
 ---
 
-### 🛠 Technologies Used  
-- **HTML5** → Structure  
-- **CSS3** → Styling and responsiveness  
-- **JavaScript (Vanilla)** → Hamburger menu + scroll animations  
+## ✅ Features
+- Fully responsive on all devices
+- Hamburger menu for mobile view
+- Smooth scroll animations
+- Clean and minimal UI
 
 ---
 
-### ✅ What I Learned  
-- How to create a **mobile-friendly navigation bar**  
-- Implementing **CSS animations and transitions**  
-- Handling **scroll events** in JavaScript  
-- Better understanding of **responsive layouts**
+## 🛠️ Technologies Used
+- **HTML5**
+- **CSS3**
+- **JavaScript (Vanilla)**
 
 ---
 
-### 📂 Project Structure  
-
-```
+## 📂 Project Structure
+```bash
 Responsive-Landing-Page/
 │── index.html
 │── style.css
 │── script.js
 │── desktop-view.png
+│── mobile-view.png
 └── README.md
-```
