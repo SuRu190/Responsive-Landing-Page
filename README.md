@@ -1,8 +1,8 @@
 
 ---
 
-## **Responsive Landing Page – README.md**
-```markdown
+# **Responsive Landing Page – README.md**
+
 # 📌 Responsive Landing Page
 
 A modern, responsive landing page with a **hamburger menu** for mobile and **smooth scroll animations** for enhanced user experience.
