@@ -7,7 +7,9 @@ A modern, responsive landing page with a **hamburger menu** for mobile and **smo
 
 ---
 
-![Preview Screenshot](desktop-view.png)
+![Desktop Screenshot](desktop-view.png)
+
+![Mobile Screenshot](mobile-view.png)
 
 ---
 
